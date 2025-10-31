@@ -1,0 +1,21 @@
+{
+  "name": "bull",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node init && nodemon index.js",
+    "queue": "nodemon queue/worker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.16.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.10"
+  }
+}
